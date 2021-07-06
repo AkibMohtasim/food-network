@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   margin: 0px;
   font-family: 'Poppins', sans-serif;
@@ -99,7 +102,28 @@ section{
   margin: 20px;
   color: rgba(0, 0, 0, 0.849);
 }
-
+.join-the-club{
+  flex-direction: column;
+  align-items: center;
+}
+.join-the-club p{
+  color: rgb(105, 105, 105);
+}
+.join-the-club h2{
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.897);
+}
+#email-box{
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#submit-button{
+  padding: 15px 40px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  color:rgba(0, 0, 0, 0.849)
+}
 footer{
   padding-top: 30px;
   height: 200px;
